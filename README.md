@@ -53,19 +53,54 @@ class MyApp extends StatelessWidget {
 <table>
   <tr>
     <td align="center">
-      <img src="" width="100px" height="100px">
+      <img src="https://github.com/Xclusivecyborg/flutter_loadkit/blob/main/images/loadkit_360.gif" width="100px" height="100px">
+      <br />
+      360
+    </td>
+    <td align="center">
+      <img src="https://github.com/Xclusivecyborg/flutter_loadkit/blob/main/images/loadkit_filled_circle.gif" width="100px" height="100px">
+      <br />
+      FilledCircle
+    </td>
+    <td align="center">
+      <img src="https://github.com/Xclusivecyborg/flutter_loadkit/blob/main/images/loadkit_folding_squares.gif" width="100px" height="100px">
+      <br />
+      FoldingSquares
+    </td>
+    <td align="center">
+      <img src="https://github.com/Xclusivecyborg/flutter_loadkit/blob/main/images/loadkit_line_chase.gif" width="100px" height="100px">
       <br />
       LineChase
     </td>
     <td align="center">
-      <img src="" width="100px" height="100px">
+      <img src="https://github.com/Xclusivecyborg/flutter_loadkit/blob/main/images/loadkit_pulse_lines.gif" width="100px" height="100px">
       <br />
-      WaterDroplet
+      PulseLines
     </td>
     <td align="center">
-      <img src="" width="100px" height="100px">
+      <img src="https://github.com/Xclusivecyborg/flutter_loadkit/blob/main/images/loadkit_rotating_lines.gif" width="100px" height="100px">
       <br />
-      FoldingSquares
+      RotatingLines
+    </td>
+    <td align="center">
+      <img src="https://github.com/Xclusivecyborg/flutter_loadkit/blob/main/images/loadkit_rotation_arcs.gif" width="100px" height="100px">
+      <br />
+      RotationArcs
+    </td>
+    <td align="center">
+      <img src="https://github.com/Xclusivecyborg/flutter_loadkit/blob/main/images/loadkit_scaling_wave.gif" width="100px" height="100px">
+      <br />
+      ScalingWave
+    </td>
+    <td align="center">
+      <img src="https://github.com/Xclusivecyborg/flutter_loadkit/blob/main/images/loadkit_spinning_arcs.gif" width="100px" height="100px">
+      <br />
+      SpinningArcs
+    </td>
+    <td align="center">
+      <img src="https://github.com/Xclusivecyborg/flutter_loadkit/blob/main/images/loadkit_water_droplet.gif" width="100px" height="100px">
+      <br />
+      WaterDroplet
     </td>
   </tr>
 </table> 
