@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_load_kit/src/custom_tweens/custom_tween.dart';
-import 'dart:math' as math;
 
 class LoadKitFoldingSquares extends StatefulWidget {
   const LoadKitFoldingSquares({
