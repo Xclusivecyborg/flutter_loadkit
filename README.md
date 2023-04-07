@@ -116,7 +116,7 @@ If you'd like to contribute to this package, kindly open a pull request [here](h
 <table>
   <tr>
     <td align="center">
-      <a href = "https://github.com/xclusivecyborg"><img src="https://avatars2.githubusercontent.com/u/6208486?s=400&u=01fab3fc9bb3d2ee799e314d3fe23c54d1deeb07&v=4" width="72" alt="Ayodeji Ogundairo" /></a>
+      <a href = "https://github.com/xclusivecyborg"><img src="https://avatars.githubusercontent.com/u/80969540?s=400&u=cedc45223f44384711b53d38f9427e0e9a911ba2&v=4" width="72" alt="Ayodeji Ogundairo" /></a>
       <p align="center">
         <a href = "https://github.com/xclusivecyborg"><img src = "https://www.iconninja.com/files/241/825/211/round-collaboration-social-github-code-circle-network-icon.svg" width="18" height = "18"/></a>
         <a href = "https://twitter.com/xclusivecyborg"><img src = "https://www.shareicon.net/download/2016/07/06/107115_media.svg" width="18" height="18"/></a>
