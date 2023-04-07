@@ -81,12 +81,12 @@ class _LoadKitLineChaseState extends State<LoadKitLineChase>
           child: DecoratedBox(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10),
-              color: widget.color ?? getRandomColor(),
+              color: widget.color ?? _getRandomColor(),
             ),
           ),
         );
 
-  Color getRandomColor() {
+  Color _getRandomColor() {
     math.Random random = math.Random();
     int alpha = 255;
     int red = random.nextInt(256);

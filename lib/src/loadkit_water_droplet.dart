@@ -108,7 +108,7 @@ class _LoadKitWaterDropletState extends State<LoadKitWaterDroplet>
                   ).animate(_waterController),
                   child: Center(
                     child: ClipPath(
-                        clipper: ArcClipper(),
+                        clipper: _ArcClipper(),
                         child: ValueListenableBuilder<double>(
                             valueListenable: _translation,
                             builder: (context, val, child) {
@@ -137,11 +137,7 @@ enum CircleSide {
   right,
 }
 
-class ArcClipper extends CustomClipper<Path> {
-  final CircleSide side;
-  ArcClipper({
-    this.side = CircleSide.left,
-  });
+class _ArcClipper extends CustomClipper<Path> {
   @override
   Path getClip(Size size) {
     final path = Path();

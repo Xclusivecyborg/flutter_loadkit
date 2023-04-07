@@ -58,24 +58,25 @@ class _LoadKitPulseLinesState extends State<LoadKitPulseLines>
   @override
   Widget build(BuildContext context) {
     return AnimatedBuilder(
-        animation: _animation,
-        builder: (context, child) {
-          return Center(
-            child: SizedBox.fromSize(
-              size: Size.fromRadius(
-                widget.size * math.sqrt1_2,
-              ),
-              child: CustomPaint(
-                painter: _StrokePaint(
-                  lineCount: widget.lineCount,
-                  strokeWidth: widget.strokeWidth,
-                  color: widget.color,
-                  radians: _animation.value,
-                ),
+      animation: _animation,
+      builder: (context, child) {
+        return Center(
+          child: SizedBox.fromSize(
+            size: Size.fromRadius(
+              widget.size * math.sqrt1_2,
+            ),
+            child: CustomPaint(
+              painter: _StrokePaint(
+                lineCount: widget.lineCount,
+                strokeWidth: widget.strokeWidth,
+                color: widget.color,
+                radians: _animation.value,
               ),
             ),
-          );
-        });
+          ),
+        );
+      },
+    );
   }
 }
 

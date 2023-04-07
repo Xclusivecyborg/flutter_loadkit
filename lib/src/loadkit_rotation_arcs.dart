@@ -44,11 +44,10 @@ class _RotatingArcState extends State<RotatingArc>
           }
         });
       });
-    _controller2 = (widget.controller ??
-        AnimationController(
-          vsync: this,
-          duration: const Duration(seconds: 1),
-        ))
+    _controller2 = (AnimationController(
+      vsync: this,
+      duration: const Duration(seconds: 1),
+    ))
       ..addListener(() async {
         if (_controller2.isCompleted) {
           await Future.delayed(const Duration(milliseconds: 300), () {
@@ -118,7 +117,6 @@ class _RotatingArcState extends State<RotatingArc>
                 ).last,
               ).animate(_controller).value,
               child: ScaleTransition(
-                // alignment: Alignment.center,
                 scale: DelayTween(begin: .5, end: 1, delay: 1)
                     .animate(_controller),
                 child: CustomPaint(
