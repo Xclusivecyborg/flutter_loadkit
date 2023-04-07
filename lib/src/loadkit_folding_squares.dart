@@ -84,8 +84,8 @@ class _LoadKitFoldingSquaresState extends State<LoadKitFoldingSquares>
   }
 
   Widget _buildSquares(int index) => Container(
-        height: widget.size,
-        width: widget.size,
+        height: widget.size * 0.5,
+        width: widget.size * 0.5,
         decoration: BoxDecoration(
           border: Border.all(
             width: 1,
@@ -95,4 +95,3 @@ class _LoadKitFoldingSquaresState extends State<LoadKitFoldingSquares>
         ),
       );
 }
-

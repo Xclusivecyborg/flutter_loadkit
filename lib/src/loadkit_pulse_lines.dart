@@ -8,7 +8,7 @@ class LoadKitPulseLines extends StatefulWidget {
     required this.color,
     this.strokeWidth = 1,
     this.controller,
-    this.lineCount = 360,
+    this.lineCount = 40,
   }) : assert(lineCount < 361 || lineCount > 35,
             "lineCount must not be greater than 360 and lineCount must be greater than 35");
   final double size;

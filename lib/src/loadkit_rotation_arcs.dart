@@ -10,7 +10,7 @@ class RotatingArc extends StatefulWidget {
     this.controller,
     this.size = 100,
     this.strokeWidth,
-    this.stokeStyle = PaintingStyle.fill,
+    this.stokeStyle = PaintingStyle.stroke,
     this.rotationStyle = RotationStyle.inward,
   });
   final AnimationController? controller;

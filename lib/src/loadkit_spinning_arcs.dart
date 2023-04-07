@@ -5,7 +5,7 @@ class LoadKitSpinningArcs extends StatefulWidget {
   const LoadKitSpinningArcs({
     super.key,
     this.controller,
-    this.size = 30,
+    this.size = 50,
     this.duration = const Duration(seconds: 1),
     this.color = Colors.black,
   });

@@ -8,14 +8,12 @@ class LoadKitScalingWave extends StatefulWidget {
     this.color = Colors.black,
     this.size = 50.0,
     this.itemCount = 7,
-    this.beginFrom = ScaleOrigin.fromRight,
     this.controller,
   }) : assert(itemCount > 2, "Item count should not be less than 2");
   final IndexedWidgetBuilder? itemBuilder;
   final Color color;
   final double size;
   final int itemCount;
-  final ScaleOrigin beginFrom;
   final AnimationController? controller;
 
   @override
@@ -46,20 +44,6 @@ class _LoadKitScalingWaveState extends State<LoadKitScalingWave>
     super.dispose();
   }
 
-  List<double> _getScale(ScaleOrigin origin) {
-    switch (origin) {
-      case ScaleOrigin.fromRight:
-        return List.generate(widget.itemCount, (index) {
-          return (index * 0.06);
-        });
-
-      case ScaleOrigin.fromLeft:
-        return List.generate(widget.itemCount, (index) {
-          return (-index * 0.06);
-        });
-    }
-  }
-
   Widget _buildItem(int index) => widget.itemBuilder != null
       ? widget.itemBuilder!(context, index)
       : Container(
@@ -83,7 +67,10 @@ class _LoadKitScalingWaveState extends State<LoadKitScalingWave>
               scale: OverScaleTween(
                 begin: 0,
                 end: 1,
-                scale: _getScale(widget.beginFrom)[i],
+                scale: List.generate(widget.itemCount, (index) {
+                  int newIndex = index;
+                  return (newIndex * 0.06);
+                })[i],
               ).animate(_controller),
               child: _buildItem(i),
             ),
@@ -92,9 +79,4 @@ class _LoadKitScalingWaveState extends State<LoadKitScalingWave>
       ),
     );
   }
-}
-
-enum ScaleOrigin {
-  fromLeft,
-  fromRight,
 }
