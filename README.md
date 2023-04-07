@@ -52,54 +52,54 @@ class MyApp extends StatelessWidget {
 <table>
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_360.gif" width="120px" height="120px">
+      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_360.gif" width="250px" height="250px">
       <br />
       360
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_filled_circle.gif" width="120px" height="120px">
+      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_filled_circle.gif" width="250px" height="250px">
       <br />
       FilledCircle
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_folding_squares.gif" width="120px" height="120px">
+      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_folding_squares.gif" width="250px" height="250px">
       <br />
       FoldingSquares
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_line_chase.gif" width="120px" height="120px">
+      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_line_chase.gif" width="250px" height="250px">
       <br />
       LineChase
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_pulse_lines.gif" width="120px" height="120px">
+      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_pulse_lines.gif" width="250px" height="250px">
       <br />
       PulseLines
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_rotating_lines.gif" width="120px" height="120px">
+      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_rotating_lines.gif" width="250px" height="250px">
       <br />
       RotatingLines
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_rotation_arcs.gif" width="120px" height="120px">
+      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_rotation_arcs.gif" width="250px" height="250px">
       <br />
       RotationArcs
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_scaling_wave.gif" width="120px" height="120px">
+      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_scaling_wave.gif" width="250px" height="250px">
       <br />
       ScalingWave
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_spinning_arcs.gif" width="120px" height="120px">
+      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_spinning_arcs.gif" width="250px" height="250px">
       <br />
       SpinningArcs
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_water_droplet.gif" width="120px" height="120px">
+      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_water_droplet.gif" width="250px" height="250px">
       <br />
       WaterDroplet
     </td>
