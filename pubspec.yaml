@@ -5,13 +5,12 @@ homepage: https://github.com/Xclusivecyborg/flutter_loadkit
 repository: https://github.com/Xclusivecyborg/flutter_loadkit
 
 environment:
-  sdk: '>=2.18.4 <3.0.0'
-  flutter: ">=1.17.0"
+  sdk: ^3.5.3
+  flutter: ">=3.3.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  
 
 dev_dependencies:
   flutter_lints: ^2.0.0
@@ -19,4 +18,3 @@ dev_dependencies:
     sdk: flutter
 
 flutter: null
-
