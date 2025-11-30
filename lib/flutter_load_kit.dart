@@ -10,3 +10,4 @@ export 'src/loadkit_rotating_lines.dart';
 export 'src/loadkit_rotation_arcs.dart';
 export 'src/loadkit_scaling_wave.dart';
 export 'src/loadkit_spinning_arcs.dart';
+export 'src/loadkit_jumping_dot.dart';
