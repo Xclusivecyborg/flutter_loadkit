@@ -5,11 +5,11 @@ import 'package:flutter/material.dart';
 class LoadkitAligningSquare extends StatefulWidget {
   const LoadkitAligningSquare({
     super.key,
-    this.size = 50.0,
+    this.size = 30.0,
     this.color = Colors.white,
     this.borderColor,
     this.backgroundColor = Colors.black,
-    this.duration = const Duration(milliseconds: 300),
+    this.duration = const Duration(milliseconds: 400),
   });
   final double size;
   final Color? color, borderColor, backgroundColor;
