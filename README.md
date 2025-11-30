@@ -1,22 +1,26 @@
-
 # 🧩 LoadKit
+
 A package that contains loading indicators built with flutter. Package is inspired by [@jogbom](https://github.com/jogboms)'s [Flutter_SpinKit](https://github.com/jogboms/flutter_spinkit).
 
-# 💻  Getting started
+# 💻 Getting started
 
 Add the load_kit dependency to your pubspec.yaml file like this:
+
 ```yaml
 dependencies:
   flutter_load_kit: 0.0.1
 ```
 
 # Import
+
 Import the flutter load_kit package like so:
+
 ```dart
 import 'package:flutter_load_kit/flutter_load_kit.dart';
 ```
 
 ## Usage
+
 ```dart
 import 'package:flutter/material.dart';
 import 'package:flutter_load_kit/flutter_load_kit.dart';
@@ -48,7 +52,9 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
+
 ## 🪄 What to Expect in the package
+
 <table>
   <tr>
     <td align="center">
@@ -99,19 +105,25 @@ class MyApp extends StatelessWidget {
       SpinningArcs
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_water_droplet.gif" width="120px" height="120px">
+      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_aligning_square.gif" width="120px" height="120px">
       <br />
-      WaterDroplet
+      AligningSquare
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/Xclusivecyborg/flutter_loadkit/main/images/loadkit_jumping_dots.gif" width="120px" height="120px">
+      <br />
+      JumpingDots
     </td>
   </tr>
-</table> 
-
+</table>
 
 ## BUGS/CONTRIBUTIONS/REQUESTS
+
 If you encounter any problems using this package, please feel free to open an [issue](https://github.com/Xclusivecyborg/flutter_loadkit/issues/new?template=bug_report.md).
 If you'd like to contribute to this package, kindly open a pull request [here](https://github.com/Xclusivecyborg/flutter_loadkit)
- 
+
 ## 👷🏽 Contributors
+
 <table>
   <tr>
     <td align="center">
