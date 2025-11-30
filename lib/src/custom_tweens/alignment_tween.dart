@@ -1,7 +1,5 @@
-
-
 import 'package:flutter/material.dart';
-import 'dart:math'as math;
+import 'dart:math' as math;
 
 class AlignTween extends Tween<Alignment> {
   AlignTween({

@@ -9,10 +9,8 @@ class LoadKit360 extends StatefulWidget {
     this.size = 50.0,
     this.controller,
     this.gradient,
-
     this.style = PaintingStyle.fill,
-    
-  }) ;
+  });
   final Color color;
   final double size;
   final AnimationController? controller;
